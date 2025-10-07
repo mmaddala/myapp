@@ -3,4 +3,8 @@ services:
   hello-world:
     image: busybox
     command: echo "Hello from FoundriesFactory!"
+apps:
+  - repo: https://github.com/mmaddala/myapp
+    name: myapp
+    compose-app: true
 
